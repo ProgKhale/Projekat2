@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PROJEKAT2" Class="zaposleniDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=PROJEKAT2;Integrated Security=True" SettingsObjectName="WindowsFormsApp14.Properties.Settings" SettingsPropertyName="PROJEKAT2ConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.zaposleni" Member="zaposlenis">
+    <Type Name="zaposleni">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ime" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+      <Column Name="Prezime" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+      <Column Name="DatumRodjenja" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="MjestoRodjenja" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+      <Column Name="JMBG" Type="System.String" DbType="NChar(13)" CanBeNull="true" />
+      <Column Name="Pol" Type="System.String" DbType="NChar(2)" CanBeNull="true" />
+      <Column Name="Drzavljanstvo" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="RadnoMjesto" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+      <Column Name="DatumZaposlenja" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Staz" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
